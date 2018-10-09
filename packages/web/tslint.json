@@ -5,5 +5,8 @@
     "node_modules/**/*.ts",
     "node_modules",
     "coverage/lcov-report/*.js"
-  ]
+  ],
+  "rules": {
+    "jsx-no-multiline-js": false
+  }
 }
