@@ -1,12 +1,13 @@
 import * as React from 'react';
 import { RegisterView } from '../ui/RegisterView';
+import { RegisterController } from '@abb/controller';
 
 export const RegisterConnector = () => {
-  const dummySubmit = async (values: any) => {
-    console.log(values);
-    return null;
-  };
-  return <RegisterView submit={dummySubmit} />;
+  return (
+    <RegisterController>
+      {({ submit }) => <RegisterView submit={submit} />}
+    </RegisterController>
+  );
 };
 
 export default RegisterConnector;

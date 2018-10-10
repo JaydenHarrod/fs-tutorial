@@ -1,0 +1,11 @@
+{
+  "extends": ["../../tslint.json", "tslint-react", "tslint-config-prettier"],
+  "exclude": [
+    "config/**/*.js",
+    "node_modules/**/*.ts",
+    "coverage/lcov-report/*.js"
+  ],
+  "rules": {
+    "jsx-no-multiline-js": false
+  }
+}
