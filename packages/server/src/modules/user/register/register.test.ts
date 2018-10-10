@@ -7,7 +7,7 @@ import {
   emailNotLongEnough,
   invalidEmail,
   passwordNotLongEnough
-} from "./errorMessages";
+} from "@abb/common";
 import { TestClient } from "../../../utils/TestClient";
 import { createTestConn } from "../../../testUtils/createTestConn";
 
