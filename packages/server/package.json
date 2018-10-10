@@ -65,6 +65,7 @@
   "jest": {
     "globalSetup": "./src/testUtils/callSetup.js",
     "testURL": "http://localhost/",
+    "testEnvironment": "node",
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },

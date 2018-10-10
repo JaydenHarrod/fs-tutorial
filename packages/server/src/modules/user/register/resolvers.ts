@@ -1,9 +1,7 @@
-import * as yup from 'yup';
-
 import { ResolverMap } from '../../../types/graphql-utils';
 import { User } from '../../../entity/User';
 import { formatYupError } from '../../../utils/formatYupError';
-import { validUserSchema } from '@abb/common';
+import { validUserSchema, duplicateEmail } from '@abb/common';
 // import { createConfirmEmailLink } from "../../utils/createConfirmEmailLink";
 // import { sendEmail } from "../../utils/sendEmail";
 
