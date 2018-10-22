@@ -5,7 +5,7 @@ import { RegisterController } from '@abb/controller';
 export const RegisterConnector = () => {
   return (
     <RegisterController>
-      {({ submit }) => <RegisterView submit={submit} />}
+      {({ submit }: { submit: any }) => <RegisterView submit={submit} />}
     </RegisterController>
   );
 };
