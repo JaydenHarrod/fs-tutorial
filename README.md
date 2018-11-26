@@ -51,3 +51,5 @@ https://yarnpkg.com/lang/en/docs/workspaces/
 https://elements.heroku.com/addons
 
 https://devcenter.heroku.com/articles/container-registry-and-runtime
+
+https://expo.io/tools#cli

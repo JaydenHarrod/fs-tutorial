@@ -9,3 +9,5 @@ dump.rdb
 .env.prod
 dist
 .netlify
+.expo/*
+npm-debug.*
