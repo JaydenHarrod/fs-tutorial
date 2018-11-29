@@ -6,19 +6,19 @@
   "dependencies": {
     "expo": "^27.0.1",
     "react": "16.3.1",
-    "react-native": "^0.57.5"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz"
   },
   "devDependencies": {
     "@types/expo": "^27.0.0",
     "@types/react": "^16.3.17",
     "@types/react-native": "^0.55.17",
-    "exp": "^57.2.1",
     "metro-bundler-config-yarn-workspaces": "^1.0.3",
     "react-native-typescript-transformer": "^1.2.9",
     "typescript": "^2.9.1"
   },
   "scripts": {
-    "start": "exp start --offline",
-    "ios": "exp ios"
+    "start": "expo start --offline",
+    "ios": "expo ios",
+    "android": "expo android"
   }
 }

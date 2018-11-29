@@ -11,6 +11,8 @@
     "nohoist": [
       "**/rimraf",
       "**/rimraf/**",
+      "**/react-native",
+      "**/react-native/**",
       "**/expo",
       "**/expo/**",
       "**/react-native-typescript-transformer",
@@ -19,7 +21,6 @@
       "**/metro-bundler-config-yarn-workspaces/**"
     ]
   },
-  "name": "abb",
   "devDependencies": {
     "lerna": "^3.4.3"
   }
